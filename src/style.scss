@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sriracha&display=swap');
+/* body {
+    font: 'Poppins', sans-serif;
+    background-color: #f3b4ea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+} */
+body {
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    background: linear-gradient(135deg, #434343, #434343); /* ใช้ gradient สำหรับพื้นหลัง */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0; /* ลบ margin เริ่มต้นของ body */
+    overflow: hidden; /* ลบ scroll bar ที่ไม่ต้องการ */
+    text-align: center; /* จัดตำแหน่งข้อความให้อยู่กลาง */
+}
+
+h1 {
+    font-size: 2.5rem; /* ขนาดตัวอักษรของหัวเรื่อง */
+    color: #22CB00; /* สีของหัวเรื่อง */
+    margin-bottom: 20px; /* ระยะห่างด้านล่างของหัวเรื่อง */
+}
+
+p {
+    font-size: 1.125rem; /* ขนาดตัวอักษรของข้อความ */
+    color: #fff; /* สีของข้อความ */
+    line-height: 1.6; /* ระยะห่างบรรทัด */
+    margin-top: 0;
+}
+
+/* button {
+    background-color: #168600; 
+    color: #ffffff; 
+    border: none;
+    padding: 12px 24px; 
+    font-size: 1rem; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.3s; 
+}*/
+
+.content button:hover {
+    background-color: #64D04F; 
+    color: #fff; 
+    transform: scale(1.05); 
+} 
+
+
+.content {
+    background-color: #303030;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+    width: 50vw;
+    min-height: 480px;
+    max-width: 100%;
+}
+
+.content button{
+    background-color: #1A9E00;
+    color: #fff;
+    padding: 10px 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #178C00 ; 
+    color: #ffffff; 
+    border: 2px solid transparent; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+
+.header-text h1, .forgot a{
+    color: #22CB00;
+}
+
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+
+.switch-content{
+    position: absolute;
+    top: 0;
+    right: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+    border-radius: 0 60px 60px 0;
+    z-index: 1000;
+}
+.content.active .switch-content{
+    transform: translateX(100%);
+    border-radius: 60px 0 0 60px;
+}
+.switch{
+    background-color: #1A1A1A ;
+    height: 100%;
+    color: #fff;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition: all 0.6s ease-in-out;
+}
+.content.active .switch{
+    transform: translateX(50%);
+}
+.switch-panel{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    text-align: center;
+    top: 0;
+    transform: translateX(0);
+    transition: all 0.6s ease-in-out;
+}
+.switch-left{
+    transform: translateX(-200%);
+}
+.content.active .switch-left{
+    transform: translateX(0);
+}
+.switch-right{
+
+    right: 0;
+    transform: translateX(0);
+}
+.content.active .switch-right{
+    transform: translateX(200%);
+}
+
+.content.active .switch-content{
+    transform: translateX(100%);
+    border-radius: 60px 0 0 60px;
+}
+.App-logo{
+    width: 85%;
+}
+.swal2-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* ใช้ค่า z-index ที่สูงเพื่อให้ SweetAlert2 อยู่บนสุด */
+  }
+  .form-control{
+    background-color: black;
+  }
+  
