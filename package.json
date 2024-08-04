@@ -14,7 +14,10 @@
     "react-scripts": "5.0.1",
     "sass": "^1.77.8",
     "styled-components": "^6.1.12",
+<<<<<<< HEAD
     "sweetalert2": "^11.12.4",
+=======
+>>>>>>> 704a6d5ac23ea8a4ff7e8361f366f67fec6b26a8
     "web-vitals": "^2.1.4"
   },
   "scripts": {

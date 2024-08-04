@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sriracha&display=swap');
 /* body {
+=======
+body {
+>>>>>>> 704a6d5ac23ea8a4ff7e8361f366f67fec6b26a8
     font: 'Poppins', sans-serif;
     background-color: #f3b4ea;
     display: flex;
@@ -7,6 +11,7 @@
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+<<<<<<< HEAD
 } */
 body {
     font-family: "Kanit", sans-serif;
@@ -55,6 +60,12 @@ p {
 
 .content {
     background-color: #303030;
+=======
+}
+
+.content {
+    background-color: #fff;
+>>>>>>> 704a6d5ac23ea8a4ff7e8361f366f67fec6b26a8
     border-radius: 40px;
     position: relative;
     overflow: hidden;
@@ -64,7 +75,11 @@ p {
 }
 
 .content button{
+<<<<<<< HEAD
     background-color: #1A9E00;
+=======
+    background-color: #82257b;
+>>>>>>> 704a6d5ac23ea8a4ff7e8361f366f67fec6b26a8
     color: #fff;
     padding: 10px 10px;
     border: 1px solid transparent;
@@ -75,6 +90,7 @@ p {
     margin-top: 10px;
 }
 
+<<<<<<< HEAD
 .btn {
     background-color: #178C00 ; 
     color: #ffffff; 
@@ -88,6 +104,14 @@ p {
 
 .header-text h1, .forgot a{
     color: #22CB00;
+=======
+.btn:hover{
+    background-color: #82257b;
+}
+
+.header-text h1, .forgot a{
+    color: #82257b;
+>>>>>>> 704a6d5ac23ea8a4ff7e8361f366f67fec6b26a8
 }
 
 .right-box{
@@ -110,7 +134,11 @@ p {
     border-radius: 60px 0 0 60px;
 }
 .switch{
+<<<<<<< HEAD
     background-color: #1A1A1A ;
+=======
+    background-color: #82257b;
+>>>>>>> 704a6d5ac23ea8a4ff7e8361f366f67fec6b26a8
     height: 100%;
     color: #fff;
     position: relative;
@@ -156,6 +184,7 @@ p {
     transform: translateX(100%);
     border-radius: 60px 0 0 60px;
 }
+<<<<<<< HEAD
 .App-logo{
     width: 85%;
 }
@@ -174,3 +203,6 @@ p {
     background-color: black;
   }
   
+=======
+
+>>>>>>> 704a6d5ac23ea8a4ff7e8361f366f67fec6b26a8
